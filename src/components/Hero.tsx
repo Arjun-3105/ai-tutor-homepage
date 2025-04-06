@@ -187,6 +187,7 @@ const Hero = () => {
             </motion.p>
 
             <motion.button
+              onClick={() => window.location.href = "https://ai-tutor-dashboard-three.vercel.app/"} 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 0.8 }}
